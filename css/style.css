@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    background-image: url("../imagens/baixados.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Rockabye;
+    font-size: 20px;
+    color: white;
+}
+
+@font-face {
+    font-family: Rockabye;
+    src: url(../fontes/Rockabye-Regular.otf);
+}
+
+h1 {
+    font-family: Rockabye;
+    line-height: 2px;
+    font-size: 55px;
+    text-align: center;
+    color:rgb(197, 0, 108);
+    text-shadow: 0.1em 0.1em rgb(7, 5, 5);
+}
+
+#ola {
+    width: 600px;
+    padding: 55px;
+    background: rgb(32, 32, 32);
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 0 16px rgb(0, 0, 0);
+    padding: 55px;
+    width: 500px;
+}
+
+
+input {
+    color: #fff;
+    background: 0 0;
+    border: none;
+    padding: 1rem 0;
+}
+
+#foto {
+    background-color: rgb(218, 0, 102);
+    color:rgb(224, 10, 82)
+}
+
+::placeholder {
+    font-size: 20px;
+    font-family: Rockabye;
+
+}
+
+p {
+    font-family: Rockabye;
+    font-size: 30px;
+    color:white;
+}
+
+select {
+    background-color: rgb(197, 0, 92);
+    width: 250px;
+    height: 45px;
+    size: 20px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    font-family: Rockabye;
+    font-size: 25px;
+
+}
+
+.div {
+    border-bottom: 2px solid grey ;
+    width: 500px;
+    height:50px;
+    align-items: center;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+input[type=submit] {
+    font-family: Rockabye;
+    font-size: 30px;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    padding: 8px;
+    color: black;
+    background-color: rgb(197, 0, 92);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+input[type=reset] {
+    font-family: Rockabye;
+    font-size: 30px;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    padding: 8px;
+    color: black;
+    background-color: rgb(197, 0, 92);
+    border: 2px solid rgb(0, 0, 0);
+}
